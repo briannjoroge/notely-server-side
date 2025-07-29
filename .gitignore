@@ -1,0 +1,15 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/src/generated/prisma
+
+/dist
+
+ src/controllers/noteControllers.ts 
+ src/controllers/userController.ts
+
+ src/middleware/authMiddleware.ts
+
+ src/routes/noteRoutes.ts 
+ src/routes/userRoutes.ts
